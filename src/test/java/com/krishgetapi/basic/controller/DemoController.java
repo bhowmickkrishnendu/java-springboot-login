@@ -1,6 +1,6 @@
 package com.krishgetapi.basic.controller;
 
-// import com.krishgetapi.basic.model.User;
+import com.krishgetapi.basic.model.User;
 import com.krishgetapi.basic.model.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
