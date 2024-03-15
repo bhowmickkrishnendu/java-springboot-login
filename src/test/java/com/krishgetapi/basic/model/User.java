@@ -1,14 +1,12 @@
 package com.krishgetapi.basic.model;
 
-import javax.persistence.*;
 
-@Entity
-@Table(name = "users")
+
+
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+  
+    private Long userId;
 
     private String username;
     private String password;
@@ -20,12 +18,12 @@ public class User {
     }
 
     // Getters and setters
-    public Long getId() {
-        return id;
+    public Long getUserId() {
+        return userId;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setUserId(Long id) {
+        this.userId = id;
     }
 
     public String getUsername() {
